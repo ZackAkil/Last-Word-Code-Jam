@@ -5,6 +5,8 @@
 
 import sys
 
+# problem logic
+
 def lastWord( s ):
    output = "" + s[0]
    for x in range(1, len(s)):
@@ -14,7 +16,7 @@ def lastWord( s ):
            output += s[x]
    return output
 
-print (len(sys.argv))
+# file reading/writing logic
 
 if len(sys.argv) >=3:
   inputFile = sys.argv[1]
